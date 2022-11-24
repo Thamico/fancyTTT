@@ -10,15 +10,15 @@
   <body>
     <div class="page-turn"></div>
     <div class="board">
-      <div class="cell c1"></div>
-      <div class="cell c2"></div>
-      <div class="cell c3"></div>
-      <div class="cell c4"></div>
-      <div class="cell c5"></div>
-      <div class="cell c6"></div>
-      <div class="cell c7"></div>
-      <div class="cell c8"></div>
-      <div class="cell c9"></div>
+      <div class="cell c1" onclick="mark(this)" id="0"></div>
+      <div class="cell c2" onclick="mark(this)"></div>
+      <div class="cell c3" onclick="mark(this)"></div>
+      <div class="cell c4" onclick="mark(this)"></div>
+      <div class="cell c5" onclick="mark(this)"></div>
+      <div class="cell c6" onclick="mark(this)"></div>
+      <div class="cell c7" onclick="mark(this)"></div>
+      <div class="cell c8" onclick="mark(this)"></div>
+      <div class="cell c9" onclick="mark(this)"></div>
       <div class="line l1 animate"></div>
       <div class="line l2 animate"></div>
       <div class="line l3 animate"></div>
@@ -29,5 +29,8 @@
         />
       </div>
     </div>
+
+    <script src="gameLogic.js"></script>
+    <button class="btn-start-game">Start game!</button>
   </body>
 </html>
